@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 40px 0px;
+}
+
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background-color: black;
+  transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 20px rgb(31, 130, 206);
+  border: 5px solid #e2f0fb;
+}
+
+.cards .card h3.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.cards .card p.second-text {
+  font-size: 0.7em;
+}
+.uno,
+.tres{
+  margin-left: 100px;
+}
+
+.cuatro,
+.seis{
+  margin-right: 100px;
+}
+.cards .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #333;
+}
+
+.cards:hover > .card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,41 @@
+:root{
+  --box-shadow: 0 0 12px rgb(31, 130, 206), 0 0 50px rgb(31, 130, 206), 0 0 70px rgb(31, 130, 206);
+  --background-transparent-blue: #1f82ce49;
+  --white-border: 5px solid #e2f0fb;
+  --background-image-space: url('../../public/background.gif');
+}
+.collapse ul>li a{
+  color: rgb(165, 255, 144);
+  text-shadow: 0 0 12px rgb(165, 255, 144);
+  font-weight: 700;
+}
+.collapse ul>li a:hover{
+  color: rgb(165, 255, 144);
+  text-shadow: 0 0 7px rgb(165, 255, 144), 0 0 14px rgb(165, 255, 144), 0 0 21px rgb(165, 255, 144);
+}
+
+.download-cv a,
+.email-link a{
+  height: auto;
+  width: 150px;
+  background-color: rgb(31, 130, 206);
+  color: #fff;
+  /* border: 2px solid #fff; */
+  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 15px rgb(31, 130, 206);
+}
+
+.download-cv a:hover,
+.email-link a:hover{
+  transition: background-color 1s ease;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/* ONLI STYLE LINKS */
+@media screen and (max-width:481px){
+  .download-cv a,
+.email-link a{
+  width: 100px;
+}
+}

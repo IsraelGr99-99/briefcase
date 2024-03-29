@@ -1,0 +1,22 @@
+nav{
+  position: sticky !important;
+  top: 0;
+  z-index: 1000 !important;
+}
+.navbar .container-navbar .collapse ul>li{
+  color: rgb(165, 255, 144);
+}
+.navbar .container-navbar button span{
+  margin: 10px 0px;
+  font-size: 30px;
+  color: aliceblue;
+}
+@media screen and (max-width: 990px){
+  nav > .container-fluid{
+    display: flex;
+    justify-content: flex-end !important;
+  }
+  li.nav-item{
+    text-align: right;
+  }
+}
