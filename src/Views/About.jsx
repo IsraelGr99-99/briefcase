@@ -3,7 +3,7 @@ import "../stylesheets/about.css";
 import Card from "../Components/Card";
 function About() {
   return (
-    <section className="container-fluid about p-0">
+    <section className="container-fluid about p-0" id="about">
       <div className="separation"></div>
       <div className="content-about">
         <div className="col-md-4  info-left">

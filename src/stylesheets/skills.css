@@ -1,0 +1,39 @@
+.skills{
+  width: 100%;
+  height: 120vh;
+  background-image: var(--background-image-space);
+  display: flex;
+}
+.cont-circle-left,
+.cont-skill,
+.cont-circle-rigth{
+  position: relative;
+  z-index: 2;
+}
+.cont-circle-left{
+  /* background-color: cadetblue; */
+}
+.cont-skill{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-skill .skill{
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  z-index: 10;
+  border-radius: 30px;
+  background-color: #1f82ce49 ;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--box-shadow);
+}
+.cont-circle-rigth{
+  /* background-color: skyblue; */
+}
+
+@media screen and (max-width: 481px){
+  .skills{
+    flex-direction: column;
+  }
+}

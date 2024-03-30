@@ -19,7 +19,6 @@
   background-color: #1f82ce49;
   transition: 400ms transform, 400ms box-shadow, 400ms background-color;
   box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 20px rgb(31, 130, 206);
-  border: 3px solid #e2f0fb;
   backdrop-filter: blur(3px);
 }
 

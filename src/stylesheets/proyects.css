@@ -20,7 +20,6 @@
 }
 .btn-modal{
   display: flex;
-  margin-top: 40px;
   justify-content: center;
   height: 100px;
   align-items: center;
@@ -36,7 +35,7 @@
   transform: translateY(-4px);
   color: #fff;
   backdrop-filter: blur(4px);
-  background-color: rgba(65, 157, 227, 0.851);
+  background-color: transparent;
   border: none;
 }
 @media screen and (max-width: 481px){

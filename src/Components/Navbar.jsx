@@ -23,6 +23,9 @@ function Navbar() {
               <Link href="#proyects" className="nav-link" text="Proyectos" />
             </li>
             <li className="nav-item px-lg-5">
+              <Link href="#skills" className="nav-link" text="/Skills" />
+            </li>
+            <li className="nav-item px-lg-5">
               <Link href="#contact" className="nav-link" text="Contacto" />
             </li>
             <li className="nav-item px-lg-5">

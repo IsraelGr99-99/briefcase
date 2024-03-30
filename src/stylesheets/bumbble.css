@@ -1,0 +1,59 @@
+.container-circle {
+  height: 100%;
+  transition: animation 3s infinity;
+  animation: gravity 4s infinite ease-out;
+  background-color: #1f82ce49;
+  border: 5px solid #e2f0fb;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 0 0 9px rgb(31, 130, 206), 0 0 18px rgb(31, 130, 206), 0 0 27px rgb(31, 130, 206);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-circle img {
+  width: 90%;
+}
+
+
+.bumbble-github,
+.bumbble-html,
+.bumbble-js,
+.bumbble-react,
+.bumbble-bootstrap,
+.bumbble-python,
+.bumbble-sweetAlert {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.bumbble-github {
+  right: 0;
+}
+
+.bumbble-github {
+  right: 0;
+}
+
+.bumbble-html {
+  top: 150px;
+  right: 200px;
+} 
+.bumbble-js{
+  width: 120px;
+  height: 120px;
+  border-radius: 70px;
+  right: 150px;
+  top: 400px;
+}
+.bumbble-react{
+  top: 350px;
+  left: 100px;
+}
+.bumbble-bootstrap{
+  top: 600px;
+  right: 60px;
+}

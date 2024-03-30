@@ -5,7 +5,7 @@ import Link from "../Components/Link";
 import Modal from "../Components/Modal";
 function Proyects() {
   return (
-    <section className="container-fluid proyects">
+    <section className="container-fluid proyects" id="proyects">
       <h3>Proyects</h3>
       <div className="col-md-10 offset-md-1 container-proyects">
         <CardProyect
