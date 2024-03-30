@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin: 40px 0px;
+  margin: 60px 0px;
 }
 
 .cards .card-me {
@@ -16,10 +16,13 @@
   border-radius: 10px;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  background-color: #1f82ce49;
   transition: 400ms transform, 400ms box-shadow, 400ms background-color;
-  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 20px rgb(31, 130, 206);
-  backdrop-filter: blur(3px);
+  box-shadow: 0 0 7px rgb(31, 130, 206), 0 0 10px rgb(31, 130, 206), 0 0 25px rgb(31, 130, 206);
+  border: 3px solid rgb(31, 130, 206);
+  background-color: var(--background-transparent-blue);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  font-weight: 700;
 }
 
 .cards .card-me h3.tip {
@@ -39,7 +42,7 @@
   background-color: #1f82ce49;
 }
 
-.cards:hover > .card-me:not(:hover) {
+.cards:hover>.card-me:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -51,34 +54,43 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 } */
 
-.info-left{
+.info-left {
   align-items: flex-end;
 }
-.info-rigth{
+
+.info-rigth {
   align-items: flex-start;
 }
-.dos{
+
+.dos {
   margin-right: 120px;
 }
-.cinco{
+
+.cinco {
   margin-left: 120px;
 }
-@media screen and (max-width: 481px){
-  .dos{
+
+@media screen and (max-width: 481px) {
+  .dos {
     margin-right: 0pc;
   }
-  .cinco{
+
+  .cinco {
     margin-left: 0pc;
   }
+
   .info-rigth,
-  .info-left{
+  .info-left {
     align-items: center;
   }
+
   .cards {
-    margin: 20px 0px;
+    margin: 30px 0px;
   }
+
   .cards .card-me {
+    width: 300px;
     backdrop-filter: blur(10px) !important;
   }
-  
+
 }

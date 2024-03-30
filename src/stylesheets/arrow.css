@@ -1,0 +1,36 @@
+.arrow{
+  display: flex;
+  width: 60px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+
+}
+.arrow i{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  /* animation: gravity 2s infinite ease; */
+  color: white;
+  border: 2px solid #fff;
+  padding: 7px;
+  border-radius: 15px;
+  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 12px rgb(31, 130, 206);
+    background: rgba(53, 124, 231, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.arrow i:hover{
+  cursor: pointer;
+  transform: scale(1.1) translateY(-10px);
+  transition: transform 1s ease, translateY 1s ease;
+}
+
+@media screen and (max-width: 481px){
+
+}

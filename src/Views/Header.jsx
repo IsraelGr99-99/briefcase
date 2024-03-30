@@ -3,9 +3,10 @@ import Navbar from "../Components/Navbar";
 import "../stylesheets/header.css";
 import Link from "../Components/Link";
 import headerPhoto from "../assets/header-photo.png";
+import ArrowUp from "../Components/ArrowUp";
 function Header() {
   return (
-    <header className="container-fluid header p-0">
+    <header className="container-fluid header p-0" id="header">
       <Navbar />
       <div className="col-12 container-header">
         <div className="col-md-6 saludo">
@@ -36,6 +37,7 @@ function Header() {
           </div>
         </div>
       </div>
+      <ArrowUp />
     </header>
   );
 }

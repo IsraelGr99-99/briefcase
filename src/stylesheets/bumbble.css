@@ -28,32 +28,73 @@
   position: absolute;
   width: 80px;
   height: 80px;
+  border-radius: 50%;
 }
 
 .bumbble-github {
-  right: 0;
-}
-
-.bumbble-github {
-  right: 0;
+  width: 120px;
+  height: 120px;
+  right: 30px;
 }
 
 .bumbble-html {
-  top: 150px;
-  right: 200px;
+  width: 100px;
+  height: 100px;
+  top: 250px;
+  right: 240px;
 } 
 .bumbble-js{
   width: 120px;
   height: 120px;
   border-radius: 70px;
-  right: 150px;
-  top: 400px;
+  right: 100px;
+  bottom: 0px;
 }
 .bumbble-react{
+  width: 150px;
+  height: 150px;
   top: 350px;
-  left: 100px;
+  left: 150px;
 }
 .bumbble-bootstrap{
-  top: 600px;
+  top: 500px;
+  left:0px;
+}
+.bumbble-sweetAlert{
+  top: 200px;
   right: 60px;
+}
+.bumbble-python{
+  width: 130px;
+  height: 130px;
+}
+@keyframes gravity {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 481px){
+  .bumbble-html{
+    top: 180px;
+  }
+  .bumbble-js{
+    bottom: 50px;
+  }
+  .bumbble-sweetAlert{
+    top: 100px;
+  }
+  .bumbble-react{
+    top: 360px;
+  }
+  .bumbble-bootstrap{
+    left: 30px;
+    top: 290px;
+  }
 }

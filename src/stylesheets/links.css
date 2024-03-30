@@ -33,6 +33,15 @@
   transform: translateY(-4px);
 }
 
+.social{
+  
+}
+.social a i{
+  font-size: 50px;
+  color: white;
+}
+
+
 
 /* ONLI STYLE LINKS */
 @media screen and (max-width:481px){

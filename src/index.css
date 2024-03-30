@@ -12,3 +12,6 @@ body::-webkit-scrollbar-thumb:hover{
   transition: background-color 1s ease;
   background-color: rgb(31, 130, 206) ;
 }
+body{
+  background-image: url('../public/background.gif') !important;
+}
