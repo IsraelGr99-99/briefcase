@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../stylesheets/proyects.css";
 import CardProyect from "../Components/CardProyect";
 import Link from "../Components/Link";
 import Modal from "../Components/Modal";
+import Aos from "aos";
 function Proyects() {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  });
   return (
     <section className="container-fluid proyects" id="proyects">
-      <h3>Proyects</h3>
+      <h3 data-aos="flip-up">Proyects</h3>
       <div className="col-md-10 offset-md-1 container-proyects">
         <CardProyect
           cardTitle="API LARAVEL"

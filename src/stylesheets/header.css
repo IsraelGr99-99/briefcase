@@ -42,7 +42,7 @@
   background-color: var(--background-transparent-blue);
   width: 350px;
   height: 350px;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) !important;
   border-radius: 20%;
   overflow: hidden;
   border: var(--white-border);

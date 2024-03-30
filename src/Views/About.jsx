@@ -22,7 +22,7 @@ function About() {
             num="tres"
           />
         </div>
-        <div className="col-md-4 content-text-goal">
+        <div className="col-md-4 content-text-goal" data-aos="flip-up">
           <h2>MI OBJETIVO</h2>
           <p>Aprender maching learning</p>
         </div>

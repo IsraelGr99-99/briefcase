@@ -1,8 +1,14 @@
-import React from "react";
+import React,{ useEffect }  from "react";
 import "../stylesheets/contact.css";
 import Link from "../Components/Link";
 import Swal from "sweetalert2";
+import Aos from "aos";
 function Contact() {
+
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  });
+
   const copyEmail = () => {
     var copy = document.createElement("input");
     copy.setAttribute("value", "isr.gr1999@outlook.com");
@@ -33,7 +39,7 @@ function Contact() {
   };
 
   return (
-    <div className="container-fluid contact p-0" id="contact">
+    <div className="container-fluid contact p-0" id="contact" data-aos="zoom-in-up">
       <div className="separation"></div>
       <div className="col-12 cont-contact">
         <div className="col-md-5 title-footer">

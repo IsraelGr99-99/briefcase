@@ -1,9 +1,14 @@
+import React, { useEffect } from "react";
 import Link from "../Components/Link";
 import "../stylesheets/navbar.css";
+import Aos from "aos";
 //import "../stylesheets/navBar.css";
 function Navbar() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg" data-aos="slide-down">
       <div className="container-fluid container-navbar">
         <button
           type="button"

@@ -1,16 +1,22 @@
-import React from "react";
+import { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import "../stylesheets/header.css";
 import Link from "../Components/Link";
 import headerPhoto from "../assets/header-photo.png";
 import ArrowUp from "../Components/ArrowUp";
+import Aos from "aos";
 function Header() {
+
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  });
+
   return (
     <header className="container-fluid header p-0" id="header">
       <Navbar />
       <div className="col-12 container-header">
         <div className="col-md-6 saludo">
-          <h1>
+          <h1 data-aos="fade">
             <strong className="header-h1">{`<h1>`}</strong>
             {`Hola soy Israel, fullstack developer`}
             <strong className="header-h1">{`<h1>`}</strong>{" "}
@@ -31,9 +37,9 @@ function Header() {
             />
           </div>
         </div>
-        <div className="col-md-6 img-header">
-          <div className="div-header-photo">
-            <img className="img-fluid" src={headerPhoto} alt="header-foto" />
+        <div className="col-md-6 img-header" >
+          <div className="div-header-photo"  data-aos="flip-up">
+            <img className="img-fluid" src={headerPhoto} alt="header-foto"/>
           </div>
         </div>
       </div>
