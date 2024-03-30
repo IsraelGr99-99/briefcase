@@ -1,3 +1,7 @@
+/* @media screen and (max-width: 481px){
 .moda-body{
-  
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
 }
+} */

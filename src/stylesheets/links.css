@@ -29,6 +29,7 @@
   transition: background-color 1s ease;
   background-color: transparent;
   color: #fff;
+  backdrop-filter: blur(4px);
 }
 
 

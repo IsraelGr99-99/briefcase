@@ -1,9 +1,10 @@
 import React from "react";
 import "../stylesheets/cardProyect.css";
 import Link from "../Components/Link";
-function CardProyect({ cardTitle, cardText, href, icon, display, src, alt }) {
+function CardProyect({ cardTitle, cardText, href, iconGit,iconWeb, display, src, alt,className, displayWeb,displayLinkGit }) {
+
   return (
-    <div className="card">
+    <div className={className ? 'card' : 'style-card-modal'}>
       {display && (<div className={`card-img ${display}`}>
         <img class="card-img-top img-fluid" src={src} alt={alt}></img>
       </div>)}
@@ -12,8 +13,8 @@ function CardProyect({ cardTitle, cardText, href, icon, display, src, alt }) {
         <p class="card-text">{cardText}</p>
       </div>
       <div className="card-footer">
-        <Link href={href} className="link-proyect" icon={icon}/>
-        <Link href={href} className="link-proyect" icon={icon}/>
+        <Link href={href} className={`link-proyect ${displayLinkGit ? '' : 'd-none'}`} icon={iconGit}/>
+        <Link href={href} className={`link-proyect ${displayWeb ? '' : 'd-none'}`} icon={iconWeb}/>
       </div>
     </div>
   );

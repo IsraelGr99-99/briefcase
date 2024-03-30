@@ -17,8 +17,33 @@
   flex-wrap: wrap;
   padding: 20px 0px;
 }
+.btn-modal{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.btn-modal > button{
+  width: 350px;
+  background-color: rgb(31, 130, 206);
+  color: #fff;
+  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 15px rgb(31, 130, 206);
+}
+.btn-modal > button:hover{
+  transition: transform 1s ease, background-color 2s ease;
+  transform: translateY(-4px);
+  color: #fff;
+  backdrop-filter: blur(4px);
+  background-color: rgba(65, 157, 227, 0.851);
+  border: none;
+}
 @media screen and (max-width: 481px){
   .container-proyects{
     justify-content: center;
+  }
+  .btn-modal > button{
+    width: 150px;
+  }
+  .btn-modal{
+    margin-top: 0px;
   }
 }
