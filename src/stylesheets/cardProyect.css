@@ -1,6 +1,6 @@
 .card{
   width: 288px;
-  height: 300px;
+  height: 340px;
   margin: 25px 0px;
   position: relative;
   border-radius: 20px !important;
@@ -11,9 +11,18 @@
 .style-card-modal{
   width: 200px;
   margin: 20px;
-  background-color: beige;
+  background-color: #1f82ce49 !important;
+  box-shadow: 0 0 2px rgb(31, 130, 206), 0 0 3px rgb(31, 130, 206), 0 0 4px rgb(31, 130, 206);
+  backdrop-filter: blur(4px);
   border-radius: 20px !important; 
-  padding: 10px;
+  padding: 0px;
+}
+.style-card-modal .card-title,
+.style-card-modal .card-text{
+  padding: 0px 0px 0px 7px
+}
+.style-card-modal .card-footer{
+  padding: 8px;
 }
 .card-img{
   display: flex;
@@ -40,6 +49,8 @@
   border-radius: 50%;
   margin: 0px 5px;
   color: #fff;
+  width: 40px;
+  height: 40px;
 }
 .card-footer a:hover{
   transition: transform 1s ease;
@@ -51,13 +62,17 @@
   width: 100%;
   border-radius: 20px;
 }
-
+.card-text{
+  margin-bottom: 10px !important;
+}
 .modal-body{
   flex: none !important;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;  
+  justify-content:space-between;
 }
+
 @media screen and (max-width: 481px){
   .card-img{
     height: 130px;

@@ -12,7 +12,7 @@ function Proyects() {
           cardTitle="API LARAVEL"
           cardText="Api creada con laravel y protegida con HAS3"
           href="https://github.com/IsraelGr99-99/company"
-          iconGit="g"
+          iconGit=" fa-brands fa-github"
           display="d-flex"
           className="card"
           src=""
@@ -25,7 +25,7 @@ function Proyects() {
           cardText="Creamos un crud para consumir la API"
           href="https://github.com/IsraelGr99-99/company-react"
           iconGit="g"
-          iconWeb='globe'
+          iconWeb="globe"
           display="d-flex"
           className="card"
           src=""
@@ -38,7 +38,7 @@ function Proyects() {
           cardText="Creamos un crud para consumir la API en VUE"
           href="https://github.com/IsraelGr99-99/company-react"
           iconGit="g"
-          iconWeb='globe'
+          iconWeb="globe"
           display="d-flex"
           className="card"
           src=""
@@ -53,61 +53,101 @@ function Proyects() {
           data-bs-target="#modalMore"
           className="btn btn-primary"
         >
-          <i className="fa-solid fa-circle-plus"></i> Ver más
+          <i className="fa-solid fa-circle-plus"></i> Ver todos
         </button>
       </div>
 
       <Modal modal="modalMore" title="Mis proyectos">
-        <div className="modal-body">
+        <div className="modal-body bg-dark">
           <CardProyect
             cardTitle="API LARAVEL"
             cardText="Api creada con laravel y protegida con HAS3"
             href="https://github.com/IsraelGr99-99/company"
-            icon="g"
             className={false}
             display="d-flex"
             src=""
             alt="API LARAVEL"
+            displayLinkGit={true}
+            displayWeb={false}
+            iconGit=" fa-brands fa-github"
           />
           <CardProyect
             cardTitle="CRUD REACT"
             cardText="Creamos un crud para consumir la API"
             href="https://github.com/IsraelGr99-99/company-react"
-            icon="g"
+            iconGit="g"
+            iconWeb="globe"
             display="d-flex"
             src=""
             className={false}
             alt="CRUD REACT"
+            displayLinkGit={true}
+            displayWeb={true}
           />
           <CardProyect
             cardTitle="CRUD VUE"
             cardText="Creamos un crud para consumir la API en VUE"
             href="https://github.com/IsraelGr99-99/company-react"
-            icon="g"
+            iconGit="g"
+            iconWeb="globe"
             display="d-flex"
             src=""
             alt="CRUD REACT"
             className={false}
+            displayLinkGit={true}
+            displayWeb={true}
           />
           <CardProyect
-            cardTitle="CRUD REACT"
+            cardTitle="Calculadora React"
             cardText="Creamos un crud para consumir la API"
             href="https://github.com/IsraelGr99-99/company-react"
-            icon="g"
+            iconGit="g"
+            iconWeb="globe"
             display="d-flex"
             src=""
             alt="CRUD REACT"
             className={false}
+            displayLinkGit={true}
+            displayWeb={true}
           />
           <CardProyect
-            cardTitle="CRUD VUE"
+            cardTitle="Grupo-CMIPuebla"
             cardText="Creamos un crud para consumir la API en VUE"
             href="https://github.com/IsraelGr99-99/company-react"
-            icon="g"
+            iconGit="g"
+            iconWeb="globe"
             display="d-flex"
             src=""
             alt="CRUD REACT"
             className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
+          <CardProyect
+            cardTitle="Perfectglass"
+            cardText="Creamos un crud para consumir la API en VUE"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
+          <CardProyect
+            cardTitle="Rampas CMI"
+            cardText="Creamos un crud para consumir la API en VUE"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
           />
         </div>
       </Modal>

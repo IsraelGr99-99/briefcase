@@ -1,10 +1,11 @@
 .proyects{
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding: 50px;
   background-image: var(--background-image-space);
 }
 .proyects h3{
+  margin: 30px;
   color: #dfdfdf;
   text-shadow: 1px 1px 3px #b6a3a3;
   font-weight: 900;
@@ -21,6 +22,8 @@
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  height: 100px;
+  align-items: center;
 }
 .btn-modal > button{
   width: 350px;
@@ -29,7 +32,7 @@
   box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 15px rgb(31, 130, 206);
 }
 .btn-modal > button:hover{
-  transition: transform 1s ease, background-color 2s ease;
+  transition: transform 1s ease-in-out, background-color 2s ease;
   transform: translateY(-4px);
   color: #fff;
   backdrop-filter: blur(4px);
@@ -45,5 +48,10 @@
   }
   .btn-modal{
     margin-top: 0px;
+  }
+  .proyects h3{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
   }
 }

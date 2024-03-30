@@ -5,7 +5,7 @@ const Modal = ({ children, modal, title }) => {
     <div className="modal fade bd-example-modal-lg" id={modal} tabIndex="-1" aria-hidden="true">
       <div className="modal-dialog modal-lg">
         <div className="modal-content">
-          <div className="modal-header">
+          <div className="modal-header bg-dark text-white">
             <label className="h5">{title}</label>
             <button
               className="btn btn-close"
