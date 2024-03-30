@@ -5,7 +5,7 @@
   margin: 40px 0px;
 }
 
-.cards .card {
+.cards .card-me {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,38 +16,70 @@
   border-radius: 10px;
   color: rgb(255, 255, 255);
   cursor: pointer;
-  background-color: black;
+  background-color: #1f82ce49;
   transition: 400ms transform, 400ms box-shadow, 400ms background-color;
   box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 20px rgb(31, 130, 206);
-  border: 5px solid #e2f0fb;
+  border: 3px solid #e2f0fb;
+  backdrop-filter: blur(3px);
 }
 
-.cards .card h3.tip {
+.cards .card-me h3.tip {
   font-size: 1em;
   font-weight: 700;
 }
 
-.cards .card p.second-text {
+.cards .card-me p.second-text {
   font-size: 0.7em;
 }
-.uno,
-.tres{
-  margin-left: 100px;
-}
 
-.cuatro,
-.seis{
-  margin-right: 100px;
-}
-.cards .card:hover {
+.cards .card-me:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 60px rgb(31, 130, 206);
   background-color: rgba(255, 255, 255, 0.1);
-  color: #333;
+  color: #fff;
+  background-color: #1f82ce49;
 }
 
-.cards:hover > .card:not(:hover) {
+.cards:hover > .card-me:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* .cards > .card-me:not(:hover) {
+  filter: blur(2px);
+  transform: scale(0.9);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} */
+
+.info-left{
+  align-items: flex-end;
+}
+.info-rigth{
+  align-items: flex-start;
+}
+.dos{
+  margin-right: 120px;
+}
+.cinco{
+  margin-left: 120px;
+}
+@media screen and (max-width: 481px){
+  .dos{
+    margin-right: 0pc;
+  }
+  .cinco{
+    margin-left: 0pc;
+  }
+  .info-rigth,
+  .info-left{
+    align-items: center;
+  }
+  .cards {
+    margin: 20px 0px;
+  }
+  .cards .card-me {
+    backdrop-filter: blur(10px) !important;
+  }
+  
 }

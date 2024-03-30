@@ -1,0 +1,24 @@
+.proyects{
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  background-image: var(--background-image-space);
+}
+.proyects h3{
+  color: #dfdfdf;
+  text-shadow: 1px 1px 3px #b6a3a3;
+  font-weight: 900;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+.container-proyects{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+@media screen and (max-width: 481px){
+  .container-proyects{
+    justify-content: center;
+  }
+}

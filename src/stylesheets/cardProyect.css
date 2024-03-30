@@ -1,0 +1,32 @@
+.card{
+  width: 288px;
+  height: 300px;
+  margin: 25px 0px;
+  position: relative;
+  border-radius: 20px !important;
+}
+.card-img{
+  display: flex;
+  position: relative;
+  top: -25px;
+  height: 150px;
+  right: -8px;
+  width: 95% !important;
+  border-radius: 20px !important;
+  background-color: cadetblue;
+}
+.card-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.card-img img{
+  width: 100%;
+  border-radius: 20px;
+}
+@media screen and (max-width: 481px){
+  .card-img{
+    height: 170px;
+  }
+}
