@@ -194,7 +194,7 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="API MARVEL"
-            cardText="API con NodeJs"
+            cardText="API en PHP sin framework"
             href="https://github.com/IsraelGr99-99/"
             iconGit="g"
             iconWeb="globe"
