@@ -38,10 +38,10 @@
 }
 
 .bumbble-html {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   top: 250px;
-  right: 240px;
+  left: 20px;
 } 
 .bumbble-js{
   width: 120px;
@@ -96,5 +96,74 @@
   .bumbble-bootstrap{
     left: 30px;
     top: 290px;
+  }
+}
+@media screen and (max-width: 844px){
+  .bumbble-bootstrap {
+    top: 600px;
+    left: -100px;
+  }
+  .bumbble-react{
+    width: 150px;
+    height: 150px;
+    top: 500px;
+    left: 70px;
+  }
+}
+@media screen and (max-width: 767px){
+  .bumbble-html{
+    top: 30px;
+    left: 50px;
+  }
+  .bumbble-js{
+    width: 100px;
+    height: 100px;
+    right: 250px;
+    bottom: -40px;
+  }
+  .bumbble-python{
+    top: 0;
+  }
+  .bumbble-sweetAlert{
+    top: -50px;
+  }
+  .bumbble-react{
+    top: 50px;
+    left: 400px;
+  }
+}
+@media screen and (max-width: 638px){
+  .bumbble-react{
+    top: 50px;
+    left: 250px;
+  }
+}
+@media screen and (max-width: 638px){
+  .bumbble-js{
+    right: 200px;
+  }
+}
+@media screen and (max-width: 638px){
+  .bumbble-react{
+    top: 50px;
+    left: 200px;
+  }
+}
+@media screen and (max-width: 487px){
+  .bumbble-js{
+    right: 150px;
+  }
+}
+@media screen and (max-width: 433px){
+  .bumbble-github{
+    top: -30px;
+  }
+  .bumbble-js{
+    right: 100px;
+  }
+}
+@media screen and (max-width: 410px){
+  .bumbble-html{
+    left: 0;
   }
 }

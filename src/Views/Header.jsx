@@ -12,9 +12,9 @@ function Header() {
   });
 
   return (
-    <header className="container-fluid header p-0" id="header">
+    <header className="col-12  container-fluid header p-0" id="header">
       <Navbar />
-      <div className="col-12 container-header">
+      <div className="col-12  container-header">
         <div className="col-md-6 saludo">
           <h1 data-aos="fade">
             <strong className="header-h1">{`<h1>`}</strong>

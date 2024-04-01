@@ -153,6 +153,58 @@ function Proyects() {
             displayLinkGit={false}
             displayWeb={true}
           />
+          <CardProyect
+            cardTitle="Wedding HTML CSS"
+            cardText="Invitación para boda digitale"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
+          <CardProyect
+            cardTitle="API MARVEL"
+            cardText="Invitación para boda digitale"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
+          <CardProyect
+            cardTitle="Invitación con REACT"
+            cardText="Invitación para boda digitale"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
+          <CardProyect
+            cardTitle="CRUD MARVEL"
+            cardText="Creamos un crud para consumir la API MARVEL"
+            href="https://github.com/IsraelGr99-99/company-react"
+            iconGit="g"
+            iconWeb="globe"
+            display="d-flex"
+            src=""
+            alt="CRUD REACT"
+            className={false}
+            displayLinkGit={false}
+            displayWeb={true}
+          />
         </div>
       </Modal>
     </section>

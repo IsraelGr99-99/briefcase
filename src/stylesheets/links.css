@@ -1,21 +1,23 @@
-:root{
+:root {
   --box-shadow: 0 0 12px rgb(31, 130, 206), 0 0 50px rgb(31, 130, 206), 0 0 70px rgb(31, 130, 206);
   --background-transparent-blue: #1f82ce49;
   --white-border: 5px solid #e2f0fb;
   --background-image-space: url('../../public/background.gif');
 }
-.collapse ul>li a{
+
+.collapse ul>li a {
   color: rgb(165, 255, 144);
   text-shadow: 0 0 12px rgb(165, 255, 144);
   font-weight: 700;
 }
-.collapse ul>li a:hover{
+
+.collapse ul>li a:hover {
   color: rgb(165, 255, 144);
   text-shadow: 0 0 7px rgb(165, 255, 144), 0 0 14px rgb(165, 255, 144), 0 0 21px rgb(165, 255, 144);
 }
 
 .download-cv a,
-.email-link a{
+.email-link a {
   height: auto;
   width: 150px;
   background-color: rgb(31, 130, 206);
@@ -25,18 +27,17 @@
 }
 
 .download-cv a:hover,
-.email-link a:hover{
-  transition: background-color 1s ease,transform 1s ease-in-out;
+.email-link a:hover {
+  transition: background-color 1s ease, transform 1s ease-in-out;
   background-color: transparent;
   color: #fff;
   backdrop-filter: blur(4px);
   transform: translateY(-4px);
 }
 
-.social{
-  
-}
-.social a i{
+.social {}
+
+.social a i {
   font-size: 50px;
   color: white;
 }
@@ -44,9 +45,18 @@
 
 
 /* ONLI STYLE LINKS */
-@media screen and (max-width:481px){
+@media screen and (max-width:481px) {
+
   .download-cv a,
-.email-link a{
-  width: 100px;
+  .email-link a {
+    width: 100px;
+  }
 }
+
+@media screen and (min-width: 422px) and (max-width: 822px) {
+
+  .download-cv a,
+  .email-link a {
+    width: 130px;
+  }
 }
