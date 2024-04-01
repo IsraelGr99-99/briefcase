@@ -163,7 +163,24 @@
   }
 }
 @media screen and (max-width: 410px){
+  .bumbble-github{
+    top: -150px;
+  }
   .bumbble-html{
-    left: 0;
+    top: -60px;
+    left: 20px;
+  }
+  .bumbble-js{
+    top: 70px;
+    right: 30px;
+  }
+  .bumbble-python{
+    top: 50px;
+  }
+  .bumbble-sweetAlert{
+    top: -50px;
+  }
+  .bumbble-react{
+    top: 160px;
   }
 }

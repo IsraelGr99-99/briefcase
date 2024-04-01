@@ -7,8 +7,8 @@ function About() {
       <div className="content-about">
         <div className="col-md-4  info-left">
           <Card
-            title="Education"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
+            title="Formación"
+            parr="Estudio Ing. Sistemas y TI en la UVP."
             num="uno"
           />
           <Card
@@ -18,18 +18,22 @@ function About() {
           />
           <Card
             title="Certificados"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
+            parr=""
             num="tres"
+            link={true}
           />
         </div>
         <div className="col-md-4 content-text-goal" data-aos="flip-up">
           <h2>MI OBJETIVO</h2>
-          <p>Aprender maching learning</p>
+          <p>
+            Busco perfeccionar mis habilidades en programación para orientarme
+            hacia el campo del Machine Learning.
+          </p>
         </div>
         <div className="col-md-4 info-rigth">
           <Card
             title="Concursos"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
+            parr="Programación Python en la Uni. IEU"
             num="cuatro"
           />
           <Card
@@ -37,11 +41,7 @@ function About() {
             parr="-Estoy estudiando Ing. Sistenas y TI"
             num="cinco"
           />
-          <Card
-            title="Estoy aprendiendo"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
-            num="seis"
-          />
+          <Card title="Estoy aprendiendo" parr="Andriod Studio" num="seis" />
         </div>
       </div>
     </section>

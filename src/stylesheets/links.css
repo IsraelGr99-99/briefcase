@@ -42,7 +42,19 @@
   color: white;
 }
 
-
+.verMas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(255, 255, 255);
+  color: white !important;
+  background-color: rgb(31, 130, 206);
+  border-radius: 20px;
+  height: 30px;
+}
+.verMas a{
+  color: white !important;
+}
 
 /* ONLI STYLE LINKS */
 @media screen and (max-width:481px) {

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Navbar from "../Components/Navbar";
 import "../stylesheets/header.css";
 import Link from "../Components/Link";
-import headerPhoto from "../assets/header-photo.png";
+import headerPhoto from "../assets/header-phot.avif";
 import ArrowUp from "../Components/ArrowUp";
 import Aos from "aos";
 function Header() {
@@ -27,6 +27,7 @@ function Header() {
               className="email-link"
               icon="at"
               text=" Correo"
+              ariaLabel='botón enviar correo'
             />
             <Link
               href="./Israel_Garcia_CV.pdf"
@@ -34,6 +35,7 @@ function Header() {
               icon="file-arrow-down"
               text=" CV"
               download={true}
+              ariaLabel='boton descarga cv'
             />
           </div>
         </div>

@@ -30,11 +30,11 @@
 
 .cont-skill .skill {
   width: 500px;
-  height: 400px;
+  height: auto;
   position: absolute;
   z-index: 10;
   border-radius: 30px;
-  background: rgba(53, 124, 231, 0.91);
+  background: #28587B;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: var(--box-shadow);
@@ -44,7 +44,9 @@
   flex-wrap: wrap;
   display: flex;
 }
-
+.cont-skill .skill span{
+margin: 10px 3px;
+}
 .language,
 .library,
 .control-version {
@@ -57,6 +59,9 @@
 .library>span,
 .control-version>span {
   margin: 10px;
+}
+div.property{
+  margin-left: 60px !important;
 }
 
 @media screen and (max-width: 481px) {
@@ -81,7 +86,9 @@
   .cont-circle-rigth {
     height: 500px;
   }
-
+  div.property{
+    margin-left: 20px !important;
+  }
 
 }
 

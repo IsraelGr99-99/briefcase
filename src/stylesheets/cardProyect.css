@@ -28,6 +28,13 @@
 .style-card-modal .card-footer{
   padding: 8px;
 }
+.style-card-modal .card-body .card-title{
+  font-size: 20px !important;
+}
+.style-card-modal .card-body .card-text{
+  margin-top: 10px;
+  font-size: 12px;
+}
 .card-img{
   display: flex;
   position: relative;
@@ -40,6 +47,7 @@
 }
 .card-body{
   color: #fff !important;
+  height: 120px;
 }
 .card-footer{
   display: flex;
@@ -47,6 +55,8 @@
   justify-content: flex-start;
   background-color: rgb(31, 130, 206) !important;
   border-radius: 0px 0px 25px 20px !important;
+  position: relative;
+  bottom: 0 !important;
 }
 .card-footer a{
   border: 1px solid #fff;

@@ -53,28 +53,34 @@ function Contact() {
               className="social"
               text=""
               icon=" fa-brands fa-github"
+              ariaLabel='enlace a mi github'
             />
             <Link
               href="https://www.linkedin.com/in/isrgr/"
               className="social"
               text=""
               icon=" fa-brands fa-linkedin"
+              ariaLabel='enlace al perfil de linkedin'
             />
             <Link
               href="whatsapp://send?phone=2223738823"
               className="social"
               text=""
               icon=" fa-brands fa-square-whatsapp"
+              ariaLabel='enlace para enviar mensaje whatsapp'
             />
           </div>
           <div className="contact-email">
             <div className="btn-copy">
+              <label htmlFor="email" className="d-none"></label>
               <input
                 type="text"
                 className="form-control text-copy"
                 value="isr.gr1999@outlook.com"
+                name="email"
+                id="email"
               />
-              <button className="btn" onClick={copyEmail}>
+              <button aria-label="copiar correo" className="btn" onClick={copyEmail}>
                 <i className="fa-solid fa-clone"></i>
               </button>
             </div>

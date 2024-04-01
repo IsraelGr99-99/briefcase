@@ -3,7 +3,7 @@ import "../stylesheets/cardProyect.css";
 import Link from "../Components/Link";
 import { useEffect } from "react";
 import Aos from "aos";
-function CardProyect({ cardTitle, cardText, href, iconGit,iconWeb, display, src, alt,className, displayWeb,displayLinkGit }) {
+function CardProyect({ cardTitle, cardText, hrefGit, hrefWeb, iconGit,iconWeb, display, src, alt,className, displayWeb,displayLinkGit,ariaLabelGit,ariaLabelWeb }) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
@@ -17,8 +17,8 @@ function CardProyect({ cardTitle, cardText, href, iconGit,iconWeb, display, src,
         <p class="card-text">{cardText}</p>
       </div>
       <div className="card-footer">
-        <Link href={href} className={`link-proyect ${displayLinkGit ? '' : 'd-none'}`} icon={iconGit}/>
-        <Link href={href} className={`link-proyect ${displayWeb ? '' : 'd-none'}`} icon={iconWeb}/>
+        <Link href={hrefGit} className={`link-proyect ${displayLinkGit ? '' : 'd-none'}`} icon={iconGit} ariaLabelGit={ariaLabelGit}/>
+        <Link href={hrefWeb} className={`link-proyect ${displayWeb ? '' : 'd-none'}`} icon={iconWeb} ariaLabelWeb={ariaLabelWeb}/>
       </div>
     </div>
   );
