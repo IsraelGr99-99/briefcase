@@ -23,7 +23,6 @@ function Link({
         download={download ? true : undefined}
         data-bs-toggle={toggleModal ? "modal" : undefined}
         data-bs-target={toggleModal ? targetModal : undefined}
-        target="_blanck"
       >
         {icon && <i className={`fa-solid fa-${icon}`}></i>}
         {text}

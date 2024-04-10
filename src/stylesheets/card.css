@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 140px;
+  height: 200px;
   width: 250px;
   border-radius: 10px;
   color: rgb(255, 255, 255);
@@ -31,22 +31,12 @@
 }
 
 .cards .card-me p.second-text {
-  font-size: 0.7em;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  padding: 2px;
 }
 
-.cards .card-me:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 4px rgb(31, 130, 206), 0 0 8px rgb(31, 130, 206), 0 0 60px rgb(31, 130, 206);
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  background-color: #1f82ce49;
-}
-
-.cards:hover>.card-me:not(:hover) {
-  filter: blur(10px);
-  transform: scale(0.9);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
 
 /* .cards > .card-me:not(:hover) {
   filter: blur(2px);

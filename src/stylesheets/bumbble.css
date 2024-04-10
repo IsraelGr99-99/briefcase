@@ -93,10 +93,7 @@
   .bumbble-react{
     top: 360px;
   }
-  .bumbble-bootstrap{
-    left: 30px;
-    top: 290px;
-  }
+
 }
 @media screen and (max-width: 844px){
   .bumbble-bootstrap {
@@ -164,23 +161,32 @@
 }
 @media screen and (max-width: 410px){
   .bumbble-github{
-    top: -150px;
+    top: -280px;
   }
   .bumbble-html{
-    top: -60px;
+    top: -120px;
     left: 20px;
   }
   .bumbble-js{
-    top: 70px;
+    top: -20px;
     right: 30px;
   }
   .bumbble-python{
-    top: 50px;
+    width: 130px;
+    height: 130px;
+    top: 30px;
   }
   .bumbble-sweetAlert{
-    top: -50px;
+    right: 10px;
+    top: -20px;
   }
   .bumbble-react{
-    top: 160px;
+    top: 170px;
+  }
+  .bumbble-bootstrap{
+    width: 90px;
+    height: 90px;
+    top: 280px !important;
+    left: 40px !important;
   }
 }

@@ -35,7 +35,6 @@
   transform: translateY(-4px);
 }
 
-.social {}
 
 .social a i {
   font-size: 50px;
@@ -55,7 +54,9 @@
 .verMas a{
   color: white !important;
 }
-
+/* .verMas:hover{
+  transform: translateY(-10);
+} */
 /* ONLI STYLE LINKS */
 @media screen and (max-width:481px) {
 

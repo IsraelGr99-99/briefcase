@@ -8,12 +8,12 @@ function About() {
         <div className="col-md-4  info-left">
           <Card
             title="Formación"
-            parr="Estudio Ing. Sistemas y TI en la UVP."
+            parr="Actualmente estoy estudiando Ingeniería de Sistemas y Tecnologías de la Información."
             num="uno"
           />
           <Card
-            title="Cursos"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
+            title="Participaciones"
+            parr="- Concurso de programación con python en la Universidad IEU"
             num="dos"
           />
           <Card
@@ -38,7 +38,7 @@ function About() {
           />
           <Card
             title="Experiencia"
-            parr="-Estoy estudiando Ing. Sistenas y TI"
+            parr="He trabajado como Freelancer durante un año, y simultáneamente gestioné la plataforma, página web y redes sociales de una empresa durante seis meses, utilizando Wordpress."
             num="cinco"
           />
           <Card title="Estoy aprendiendo" parr="Andriod Studio" num="seis" />

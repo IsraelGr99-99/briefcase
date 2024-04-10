@@ -31,14 +31,7 @@ function Navbar() {
               <Link href="#skill" className="nav-link" text="Skills" />
             </li>
             <li className="nav-item px-lg-5">
-              <Link href="#contact" className="nav-link" text="Contacto" />
-            </li>
-            <li className="nav-item px-lg-5">
-              <Link
-                href="#contact"
-                className="nav-link"
-                text="Configuración */"
-              />
+              <Link href="#contact" className="nav-link" text="Contacto */" />
             </li>
           </ul>
         </div>

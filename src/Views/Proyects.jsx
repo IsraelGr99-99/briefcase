@@ -10,7 +10,7 @@ function Proyects() {
   });
   return (
     <section className="container-fluid proyects" id="proyects">
-      <h3 data-aos="flip-up">Proyects</h3>
+      <h3 data-aos="flip-up">Proyectos</h3>
       <div className="col-md-10 offset-md-1 container-proyects">
         <CardProyect
           cardTitle="API LARAVEL"
@@ -120,13 +120,13 @@ function Proyects() {
           <CardProyect
             cardTitle="Calculadora React"
             cardText="Creamos un crud para consumir la API"
-            hrefGit="https://github.com/IsraelGr99-99/"
-            hrefWeb="https://github.com/IsraelGr99-99"
+            hrefGit="https://github.com/IsraelGr99-99/calculator"
+            hrefWeb="https://calculator.israel-gr.com/"
             iconGit=" fa-brands fa-github"
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Calculadora React"
             className={false}
             displayLinkGit={true}
             displayWeb={true}
@@ -141,7 +141,7 @@ function Proyects() {
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Grupo-CMIPuebla"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -156,7 +156,7 @@ function Proyects() {
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Perfectglass"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -171,7 +171,7 @@ function Proyects() {
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Rampas CMI"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -180,12 +180,12 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="Webdding"
-            cardText="Invitación para bodas digital con HTML, CSS, JS, Bootstrap y SweetAlert"
+            cardText="Invitación para bodas digital con HTML, CSS, JS, Bootstrap y SweetAlert enlazada a Google Sheets"
             hrefWeb="https://israelgr99-99.github.io/webdding/"
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Webdding"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -200,7 +200,7 @@ function Proyects() {
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="API MARVEL"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -210,13 +210,13 @@ function Proyects() {
           <CardProyect
             cardTitle="Invitación con REACT"
             cardText="Invitación para boda digitale con React"
-            hrefGit="https://github.com/IsraelGr99-99"
-            hrefWeb="https://israelgr99-99.github.io/invitacion/"
+            hrefGit="https://github.com/IsraelGr99-99/invitacion"
+            hrefWeb="https://invitation.israel-gr.com/"
             iconGit="g"
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Invitación digital"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -232,7 +232,7 @@ function Proyects() {
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="CRUD MARVEL"
             className={false}
             displayLinkGit={false}
             displayWeb={true}
@@ -242,13 +242,12 @@ function Proyects() {
           <CardProyect
             cardTitle="Portafolio web"
             cardText="Esta página esta desarrollada con React"
-            hrefGit="https://github.com/IsraelGr99-99"
             hrefWeb="https://israel-gr.com"
             iconGit="g"
             iconWeb="globe"
             display="d-flex"
             src=""
-            alt="CRUD REACT"
+            alt="Portafolio web"
             className={false}
             displayLinkGit={false}
             displayWeb={true}

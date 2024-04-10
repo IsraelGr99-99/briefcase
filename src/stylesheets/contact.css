@@ -142,15 +142,21 @@ footer {
   }
 
   .title-footer h5 {
-    font-size: 70px;
+    font-size: 60px !important;
   }
 
   .title-footer {
     margin: 0;
   }
+  .inf-contact{
+    width: 100% !important;
+  }
 
   footer{
     margin-top: 20px !important;
+  }
+  .contact {
+    margin-top: 260px;
   }
 }
 
@@ -178,16 +184,5 @@ footer {
 @media screen and (max-width: 599px){
   .title-footer h5{
     font-size: 55px;
-  }
-}
-@media screen and (max-width: 481px) {
-  .title-footer{
-    width: 100%;
-  }
-  .inf-contact{
-    width: 100%;
-  }
-  .title-footer h5{
-    font-size: 85px;
   }
 }

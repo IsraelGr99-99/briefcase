@@ -1,4 +1,5 @@
 import React from "react";
+import '../stylesheets/modal.css'
 import CardProyect from "./CardProyect";
 const Modal = ({ children, modal, title }) => {
   return (
