@@ -8,8 +8,9 @@ function Card({ title, parr, num,link }) {
     Aos.init({ duration: 1000 });
   });
   return (
+    //data-aos="fade-up"
     <div class="cards">
-      <div class={`card-me ${num}`} data-aos="fade-up">
+      <div class={`card-me ${num}`} >
         <h3 class="tip">{title}</h3>
         <p class="second-text">{parr}</p>
         {link ? (<Link href='https://drive.google.com/drive/folders/1WfNoK5sJC3MTvDGHWqrxpTLCNVgvyXol?usp=sharing'text='ver todos' className='verMas'/>) : null}

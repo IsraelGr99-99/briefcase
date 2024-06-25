@@ -9,9 +9,9 @@ function CardProyect({ cardTitle, cardText, hrefGit, hrefWeb, iconGit,iconWeb, d
   });
   return (
     <div className={className ? 'card' : 'style-card-modal'} data-aos="zoom-out-right">
-      {display && (<div className={`card-img ${display}`}>
+      {/* {display && (<div className={`card-img ${display}`}>
         <img class="card-img-top img-fluid" src={src} alt={alt}></img>
-      </div>)}
+      </div>)} */}
       <div class="card-body">
         <h5 class="card-title">{cardTitle}</h5>
         <p class="card-text">{cardText}</p>
