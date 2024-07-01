@@ -30,8 +30,14 @@ function Skills() {
             <span className=""> frameworksYLibrerias: </span>
             <span>{` [`}</span>
             <span>{`"React",`}</span>
+            <span>{`"React Native",`}</span>
             <span>{`"Bootstrap",`}</span>
             <span>{`"SweetAlert"],`}</span>
+          </div>
+          <div className=" col-12 control-version property">
+            <span className=""> baseDeDatos: </span>
+            <span>{` [`}</span>
+            <span>{`"MySQL"]`}</span>
           </div>
           <div className=" col-12 control-version property">
             <span className=""> controlDeVersiones: </span>
@@ -42,6 +48,8 @@ function Skills() {
           <div className=" col-12 control-version property">
             <span className=""> herramientas: </span>
             <span>{` [`}</span>
+            <span>{`"Laragon",`}</span>
+            <span>{`"Postman",`}</span>
             <span>{`"NodeJS"],`}</span>
           </div>
           <div className=" col-12 control-version property">

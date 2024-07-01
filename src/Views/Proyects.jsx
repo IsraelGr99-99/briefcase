@@ -13,50 +13,45 @@ function Proyects() {
       <h3 data-aos="flip-up">Proyectos</h3>
       <div className="col-md-10 offset-md-1 container-proyects">
         <CardProyect
-          cardTitle="API LARAVEL"
-          cardText="API con Laravel 10 usando autenticación Sanctum."
-          hrefGit="https://github.com/IsraelGr99-99/"
-          iconGit=" fa-brands fa-github"
+          cardTitle="UNIVERSIA"
+          cardSubTitle='App móvil'
+          cardText="Aplicación en desarrollo..."
           display="d-flex"
           className="card"
           src=""
-          alt="API LARAVEL"
-          displayLinkGit={true}
+          displayLinkGit={false}
           displayWeb={false}
           ariaLabelGit="Link repositorio git"
           ariaLabelWeb="Link sitio web"
         />
         <CardProyect
           cardTitle="REACT CRUD"
-          cardText="Doble CRUD consumiendo API laravel con paginación integrada y Autenticación Sanctum."
-          hrefGit="https://github.com/IsraelGr99-99"
-          hrefWeb="https://github.com/IsraelGr99-99"
-          iconGit=" fa-brands fa-github"
+          cardSubTitle='Front end'
+          cardText="Implementación de CRUD doble con API Laravel, paginación y autenticación Sanctum integradas."
+          hrefWeb='https://company-react.israel-gr.com'
           iconWeb="globe"
           display="d-flex"
           className="card"
           src=""
           alt="CRUD REACT"
-          displayLinkGit={true}
+          displayLinkGit={false}
           displayWeb={true}
-          ariaLabelGit="Link repositorio git"
           ariaLabelWeb="Link sitio web"
         />
         <CardProyect
-          cardTitle="CRUD VUE"
-          cardText="Doble CRUD consumiendo API Laravel con autenticación Sanctum."
+          cardTitle="API LARAVEL"
+          cardSubTitle='Backend'
+          cardText="API creada con Laravel 10 usando autenticación Sanctum."
           hrefGit="https://github.com/IsraelGr99-99/"
-          hrefWeb="https://github.com/IsraelGr99-99"
           iconGit=" fa-brands fa-github"
-          iconWeb="globe"
+          
           display="d-flex"
           className="card"
           src=""
           alt="CRUD REACT"
           displayLinkGit={true}
-          displayWeb={true}
+          displayWeb={false}
           ariaLabelGit="Link repositorio git"
-          ariaLabelWeb="Link sitio web"
         />
       </div>
       <div className="btn-modal">
@@ -69,40 +64,42 @@ function Proyects() {
         </button>
       </div>
 
-      <Modal modal="modalMore" title="Mis proyectos">
+      <Modal modal="modalMore" title="Proyectos">
         <div className="modal-body bg-dark">
           <CardProyect
-            cardTitle="API LARAVEL"
-            cardText="API con Laravel 10 usando autenticación Sanctum."
-            hrefGit="https://github.com/IsraelGr99-99/"
+            cardTitle="Space Invade"
+            cardSubTitle='Juego Escritorio'
+            cardText="Juego de Escritorio creado con python."
+            hrefGit="https://drive.google.com/drive/folders/1SKw1ahabN741r6GlkvYrPQwIuG-cvJw5?usp=sharing"
             className={false}
             display="d-flex"
             src=""
             alt="API LARAVEL"
             displayLinkGit={true}
             displayWeb={false}
-            iconGit=" fa-brands fa-github"
-            ariaLabelGit="Link repositorio git"
+            iconGit=" fa-solid fa-arrow-down"
+            ariaLabelGit="Link repositorio git" 
             ariaLabelWeb="Link sitio web"
+            displayLinkExe={true}
           />
           <CardProyect
-            cardTitle="CRUD REACT"
-            cardText="Doble CRUD consumiendo API laravel con paginación integrada y Autenticación Sanctum."
-            hrefGit="https://github.com/IsraelGr99-99/"
-            hrefWeb="https://github.com/IsraelGr99-99"
-            iconGit=" fa-brands fa-github"
+            cardTitle="Convertidor de archivos"
+            cardSubTitle='FullStack'
+            cardText="Convertidor de archivos html a excel creado con python."
+            hrefWeb="http://israelgr99.pythonanywhere.com/"
             iconWeb="globe"
             display="d-flex"
             src=""
             className={false}
             alt="CRUD REACT"
-            displayLinkGit={true}
+            displayLinkGit={false}
             displayWeb={true}
             ariaLabelGit="Link repositorio git"
             ariaLabelWeb="Link sitio web"
           />
           <CardProyect
             cardTitle="CRUD VUE"
+            cardSubTitle='Front end'
             cardText="Doble CRUD consumiendo API Laravel con autenticación Sanctum."
             hrefGit="https://github.com/IsraelGr99-99/"
             hrefWeb="https://github.com/IsraelGr99-99"
@@ -119,24 +116,24 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="Calculadora React"
-            cardText="Creamos un crud para consumir la API"
-            hrefGit="https://github.com/IsraelGr99-99/calculator"
+            cardSubTitle='Front-Backend'
+            cardText="Calculadora creada con React y Bootstrap."
             hrefWeb="https://calculator.israel-gr.com/"
-            iconGit=" fa-brands fa-github"
             iconWeb="globe"
             display="d-flex"
             src=""
             alt="Calculadora React"
             className={false}
-            displayLinkGit={true}
+            displayLinkGit={false}
             displayWeb={true}
             ariaLabelGit="Link repositorio git"
             ariaLabelWeb="Link sitio web"
           />
           <CardProyect
             cardTitle="Grupo-CMIPuebla"
-            cardText="Página web para empresa de construcción utilizando HTML, CSS, JS y Bootstrap y SweetAlert"
-            hrefWeb="https://grupo-cmipuebla.com.mx/"
+            cardSubTitle='Página web Front-Backend'
+            cardText="Sitio web para empresa del sector industrial creada con html, css, js, sweetalert y bootstrap."
+            hrefWeb="https://grupocmi-puebla.rampadepatio.com.mx/"
             iconGit="g"
             iconWeb="globe"
             display="d-flex"
@@ -150,8 +147,9 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="Perfectglass"
-            cardText="Página web para empresan de vidrios utilizando HTML, CSS, JS y Bootstrap y SweetAlert"
-            hrefWeb="https://perfectglass.mx/"
+            cardSubTitle='Página web Front-Backend'
+            cardText="Sitio web para empresa fabricante de vidrios creada con html, css, js, sweetalert y bootstrap."
+            hrefWeb="https://perfectglass.israel-gr.com/"
             iconGit="g"
             iconWeb="globe"
             display="d-flex"
@@ -165,7 +163,8 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="Rampas CMI"
-            cardText="Página web para empresa utilizando HTML, CSS, JS y Bootstrap y SweetAlert"
+            cardSubTitle='Página web Front-Backend'
+            cardText="Sitio web para empresa del sector industrial creada con html, css, js, sweetalert y bootstrap."
             hrefWeb="https://rampadepatio.com.mx/"
             iconGit="g"
             iconWeb="globe"
@@ -180,8 +179,9 @@ function Proyects() {
           />
           <CardProyect
             cardTitle="Webdding"
-            cardText="Invitación para bodas digital con HTML, CSS, JS, Bootstrap y SweetAlert enlazada a Google Sheets"
-            hrefWeb="https://israelgr99-99.github.io/webdding/"
+            cardSubTitle='Front-Backend'
+            cardText="Invitación para bodas digital creada con html, css, js, sweetalert, bootstrap y enlazada a Google Sheets"
+            hrefWeb="https://webdding.israel-gr.com/"
             iconWeb="globe"
             display="d-flex"
             src=""
@@ -193,8 +193,9 @@ function Proyects() {
             ariaLabelWeb="Link sitio web"
           />
           <CardProyect
-            cardTitle="API MARVEL"
-            cardText="API en PHP sin framework"
+            cardTitle="Simulación de la luz"
+            cardSubTitle='Simulación 3D'
+            cardText="Simulación de la luz a través de la fibra óptica (Reflexión) utilizando motor gráfico Unity."
             href="https://github.com/IsraelGr99-99/"
             iconGit="g"
             iconWeb="globe"
@@ -208,11 +209,12 @@ function Proyects() {
             ariaLabelWeb="Link sitio web"
           />
           <CardProyect
-            cardTitle="Invitación con REACT"
-            cardText="Invitación para boda digitale con React"
-            hrefGit="https://github.com/IsraelGr99-99/invitacion"
+            cardTitle="Invitación Digital"
+            cardSubTitle='FullStack'
+            cardText="Invitación para boda usando API para mostrar el clima en tiempo real y react."
+            //hrefGit="https://github.com/IsraelGr99-99/invitacion"
             hrefWeb="https://invitation.israel-gr.com/"
-            iconGit="g"
+            //iconGit="g"
             iconWeb="globe"
             display="d-flex"
             src=""
@@ -224,24 +226,9 @@ function Proyects() {
             ariaLabelWeb="Link sitio web"
           />
           <CardProyect
-            cardTitle="CRUD MARVEL"
-            cardText="Creamos un crud para consumir la API MARVEL"
-            hrefGit="https://github.com/IsraelGr99-99"
-            hrefWeb="https://israelgr99-99.github.io/marvelreact/"
-            iconGit="g"
-            iconWeb="globe"
-            display="d-flex"
-            src=""
-            alt="CRUD MARVEL"
-            className={false}
-            displayLinkGit={false}
-            displayWeb={true}
-            ariaLabelGit="Link repositorio git"
-            ariaLabelWeb="Link sitio web"
-          />
-          <CardProyect
             cardTitle="Portafolio web"
-            cardText="Esta página esta desarrollada con React"
+            cardSubTitle='FullStack'
+            cardText="Mi portafolio web creado con React, boostrap y sweetAlert."
             hrefWeb="https://israel-gr.com"
             iconGit="g"
             iconWeb="globe"

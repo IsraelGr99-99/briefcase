@@ -15,11 +15,12 @@ function Link({
     Aos.init({ duration: 1000 });
   });
   return (
-    <div className={className} data-aos="fade-up">
+    <div className={className} data-aos="zoom-in">
       <a
         href={href}
         className="text-decoration-none btn"
         aria-label={ariaLabel}
+        target="_blank"
         download={download ? true : undefined}
         data-bs-toggle={toggleModal ? "modal" : undefined}
         data-bs-target={toggleModal ? targetModal : undefined}

@@ -1,6 +1,6 @@
 .card{
   width: 288px;
-  height: 340px;
+  height: 260px !important;
   margin: 25px 0px;
   position: relative;
   border-radius: 20px !important;
@@ -11,15 +11,14 @@
   border: 3px solid #fff !important; 
 }
 .style-card-modal{
-  width: 200px;
+  width: 290px;
   margin: 20px;
   background-color: #1f82ce49 !important;
   box-shadow: 0 0 2px rgb(31, 130, 206), 0 0 3px rgb(31, 130, 206), 0 0 4px rgb(31, 130, 206);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter:  blur(4px);
   border-radius: 20px !important; 
-  padding: 0px;
-  border: 3px solid #fff !important; 
+  border: 3px solid #f7f6f6 !important; 
 }
 .style-card-modal .card-title,
 .style-card-modal .card-text{
@@ -35,15 +34,8 @@
   margin-top: 10px;
   font-size: 12px;
 }
-.card-img{
-  display: flex;
-  position: relative;
-  top: -25px;
-  height: 150px;
-  right: -8px;
-  width: 95% !important;
-  border-radius: 20px !important;
-  background-color: cadetblue;
+.card-title{
+  padding-top: 10 px !important;
 }
 .card-body{
   color: #fff !important;
@@ -51,6 +43,7 @@
 }
 .card-footer{
   display: flex;
+  height: 60px;
   flex-direction: row;
   justify-content: flex-start;
   background-color: rgb(31, 130, 206) !important;
@@ -72,12 +65,8 @@
   color: #fff;
   border: 1px solid #fff;
 }
-.card-img img{
-  width: 100%;
-  border-radius: 20px;
-}
 .card-text{
-  margin-bottom: 10px !important;
+  
 }
 .modal-body{
   flex: none !important;
@@ -86,13 +75,18 @@
   flex-wrap: wrap;  
   justify-content:space-between;
 }
-
-@media screen and (max-width: 481px){
-  .card-img{
-    height: 130px;
-  }
+.style-card-modal .card-body .card-sub{
+  font-size: 12px;
+  margin-left: 10px;
 }
-@media screen and (max-width: 627px){
-  .card{
+@media screen and (max-width: 480px){
+  .style-card-modal{
+    width: 90%;
+  }
+  .card-sub{
+    padding-left: 10px;
+  }
+  .style-card-modal .card-body .card-sub{
+    margin-left: 0px;
   }
 }
